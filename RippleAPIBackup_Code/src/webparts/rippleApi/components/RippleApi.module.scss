@@ -1,0 +1,147 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+.addTrustbtn{
+  padding: 10px;
+  margin:10px 0px;
+}
+div[class*='Toastify__toast'] {
+  z-index: 1000;
+}
+.rippleApi {
+  .container {
+    padding: 30px 30px;
+    margin: 0px auto;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+  }
+  .grid{
+    @include ms-Grid;
+  }
+  .row {
+    @include ms-Grid-row;
+    padding: 20px;
+  }
+  .twocolumnlayout{
+      @include ms-Grid-col;
+      @include ms-sm12;
+      @include ms-md6;
+      @include ms-lg6;
+  }
+  .onecolumnlayout{
+    @include ms-Grid-col;
+    @include ms-sm12;
+    @include ms-md12;
+    @include ms-lg12;
+}
+.AppName{
+  padding: 5px;
+  text-align: center;
+  font-size: 25px;
+}
+.sectionheading{
+  padding: 9px 0px;
+    margin: 5px 21px;
+    font-size: 20px;
+    border-bottom: 3px solid #0c0c9c;
+    color: #0c0c9c;
+}
+.labelheading label{
+  font-weight: 500;
+}
+.addtrust{
+  float:right;
+  color:blue;
+  cursor: pointer;
+}
+.refresh{
+ 
+  float: right;
+
+    margin: 10px 0px 0px 0px;
+}
+
+.trustlines {
+ 
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.theading{
+  font-weight: 500;
+  font-size:14px;
+}
+.trustheading{
+  padding:10px 0px;
+}
+.trustlines td, .trustlines th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.trustlines tr:nth-child(even){background-color: #f2f2f2;}
+
+.trustlines tr:hover {background-color: #ddd;}
+
+.trustlines th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #8b8f8b;
+  color: white;
+}
+  .column {
+    @include ms-Grid-col;
+    @include ms-lg10;
+    @include ms-xl8;
+    @include ms-xlPush2;
+    @include ms-lgPush1;
+  }
+
+  .title {
+    @include ms-font-xl;
+    @include ms-fontColor-white;
+  }
+
+  .subTitle {
+    @include ms-font-l;
+    @include ms-fontColor-white;
+  }
+
+  .description {
+    @include ms-font-l;
+    @include ms-fontColor-white;
+  }
+
+  .button {
+    // Our button
+    text-decoration: none;
+    height: 32px;
+
+    // Primary Button
+    min-width: 80px;
+    background-color: $ms-color-themePrimary;
+    border-color: $ms-color-themePrimary;
+    color: $ms-color-white;
+
+    // Basic Button
+    outline: transparent;
+    position: relative;
+    font-family: "Segoe UI WestEuropean","Segoe UI",-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: $ms-font-size-m;
+    font-weight: $ms-font-weight-regular;
+    border-width: 0;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    padding: 0 16px;
+
+    .label {
+      font-weight: $ms-font-weight-semibold;
+      font-size: $ms-font-size-m;
+      height: 32px;
+      line-height: 32px;
+      margin: 0 4px;
+      vertical-align: top;
+      display: inline-block;
+    }
+  }
+}
