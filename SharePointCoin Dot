@@ -23,6 +23,7 @@ lend assets to other government agencies. SharePoint has 190 million
 users. All the Companies that have SharePoint also use it for custom
 development.
 
+MileStones:
 1\) Creating a SharePoint Template and webparts that will allow any
 Entity that uses SharePoint to upload this SharePoint Package. This will
 create Document Libraries and Lists and webpart libraries to support the
@@ -54,14 +55,22 @@ value within the workflow.(This is still a manual process) . With  A Custom
 Coin and custom tokens , the workflows will be able to move monetary
 value from within the workflow. This will enable these monetary
 workflows to be detached from any manual steps that are related to
-moving monetary value within the workflow. 2) A. Proof of concept is
-done B. Create web part libraries and Extensions all using  A Custom Coin C.
-Create Scripts to create SharePoint Templates D) Create PowerShell
-library scripts for Document libraries E) Migration Scripts for
-SharePoint online from On-Prem F) Integrate SharePoint Search into
-Template G) Create Power Apps workflow entities H) integrate Ledger into
-SharePoint Lists G) integrate SharePoint Search into Ledger for
-DataLayer 3) I was a SharePoint Senior Developer/ Architect with
+moving monetary value within the workflow. 
+2) A. Proof of concept is
+done 
+3). Create web part libraries and Extensions all using  A Custom Coin 
+4) Create Scripts to create SharePoint Templates 
+5) Create PowerShell library scripts for Document libraries 
+6) Migration Scripts for
+SharePoint online from On-Prem 
+7) Integrate SharePoint Search into
+Template 
+8) Create Power Apps workflow entities H) integrate Ledger into
+SharePoint Lists 
+9) integrate SharePoint Search into Ledger for
+DataLayer 
+Experience:
+I was a SharePoint Senior Developer/ Architect with
 Cognizant Technologies. I have worked with several Teams from India. I
 would need to hire a team of about 8 Developers and a tester to complete
 these tasks within a year. Example: I was senior architect for a large
